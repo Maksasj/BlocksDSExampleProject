@@ -1,0 +1,1162 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+                              /opt/blocksds/core/sys/crts/ds_arm9_crt0.o (__libnds_mpu_setup)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(crt0_argv.c.o)
+                              /opt/blocksds/core/sys/crts/ds_arm9_crt0.o (build_argv)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+                              /opt/blocksds/core/sys/crts/ds_arm9_crt0.o (initSystem)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(securearea.c.o)
+                              /opt/blocksds/core/sys/crts/ds_arm9_crt0.o (__secure_area__)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+                              /opt/blocksds/core/sys/crts/ds_arm9_crt0.o (fake_heap_start)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+                              /opt/blocksds/core/sys/crts/ds_arm9_crt0.o (__libnds_exit)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o) (irqInit)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+                              /opt/blocksds/core/sys/crts/ds_arm9_crt0.o (cothread_start)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o) (fifoSetValue32Handler)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o) (CP15_CleanAndFlushDCache)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(cpu_clock.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o) (setCpuClock)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(IntrWait.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o) (swiIntrWait)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o) (__ndsabi_coro_resume)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o) (memset)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(memcpy.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o) (memcpy)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(interruptDispatcher.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o) (IntrMain)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(aeabi_read_tp.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o) (__aeabi_read_tp)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(dma.s.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o) (dmaSetParams)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o) (vramDefault)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o) (systemValueHandler)
+/opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o) (__ndsabi_coro_make_noctx)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o) (calloc)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o) (free)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o) (malloc)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o) (memalign)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o) (errno)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+                              /opt/blocksds/core/sys/crts/ds_arm9_crt0.o (__libc_init_array)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+                              /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o) (__retarget_lock_acquire_recursive)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+                              /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o) (exit)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+                              /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o) (__libc_fini_array)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+                              /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o) (__aeabi_uidivmod)
+/opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+                              /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+ .data          0x00000000        0x0 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+ .bss           0x00000000        0x0 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+ .text          0x00000000        0x0 build/source/test.c.o
+ .data          0x00000000        0x0 build/source/test.c.o
+ .bss           0x00000000        0x0 build/source/test.c.o
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+ .text.memCached
+                0x00000000       0x20 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+ .text.peripheralSlot2EnableCache
+                0x00000000       0x38 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+ .text.peripheralSlot2DisableCache
+                0x00000000       0x44 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(crt0_argv.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(crt0_argv.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(crt0_argv.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(securearea.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(securearea.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(securearea.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+ .text.irqInitHandler
+                0x00000000       0x28 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+ .text.irqDisable
+                0x00000000       0x64 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+ .text.irqClear
+                0x00000000       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.init_tls
+                0x00000000       0x28 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_delete
+                0x00000000       0x44 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_create_manual
+                0x00000000       0xd0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_create
+                0x00000000       0x80 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_detach
+                0x00000000       0x38 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_has_joined
+                0x00000000       0x30 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_get_exit_code
+                0x00000000       0x3c /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_yield
+                0x00000000       0x14 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_yield_irq
+                0x00000000       0x18 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_get_current
+                0x00000000        0xc /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoSendSpecialCommand
+                0x00000000       0x28 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoSendAddress
+                0x00000000       0x38 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoSendDatamsg
+                0x00000000       0x94 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoGetAddress
+                0x00000000       0x7c /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoSetAddressHandler
+                0x00000000       0x78 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoGetValue32
+                0x00000000       0x70 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoCheckAddress
+                0x00000000       0x24 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoCheckDatamsg
+                0x00000000       0x24 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoCheckDatamsgLength
+                0x00000000       0x30 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoCheckValue32
+                0x00000000       0x24 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoMutexAcquire
+                0x00000000       0x30 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoMutexTryAcquire
+                0x00000000       0x20 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoMutexRelease
+                0x00000000       0x14 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_mutex
+                0x00000000       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetID
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetCacheType
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetTCMSize
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetControl
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetControl
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetDataCachable
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetInstructionCachable
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetDataCachable
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetInstructionCachable
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetDataBufferable
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetDataBufferable
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetDataPermissions
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetInstructionPermissions
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetDataPermissions
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetInstructionPermissions
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetRegion0
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetRegion1
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetRegion2
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetRegion3
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetRegion4
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetRegion5
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetRegion6
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetRegion7
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetRegion0
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetRegion1
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetRegion2
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetRegion3
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetRegion4
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetRegion5
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetRegion6
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetRegion7
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_FlushICache
+                0x00000000        0xc /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_FlushICacheEntry
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_PrefetchICacheLine
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_FlushDCache
+                0x00000000        0xc /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_FlushDCacheEntry
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_CleanDCacheEntry
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_CleanAndFlushDCacheEntry
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_CleanDCacheEntryByIndex
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_CleanAndFlushDCacheEntryByIndex
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_DrainWriteBuffer
+                0x00000000        0xc /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_WaitForInterrupt
+                0x00000000        0xc /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetDCacheLockdown
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetICacheLockdown
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetDCacheLockdown
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetICacheLockdown
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetDTCM
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_GetITCM
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetDTCM
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_SetITCM
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text.CP15_CleanAndFlushDCache
+                0x00000000       0x34 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .ARM.attributes
+                0x00000000       0x21 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cp15.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cpu_clock.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cpu_clock.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cpu_clock.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(IntrWait.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(IntrWait.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(IntrWait.s.o)
+ .text.swiWaitForVBlank
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(IntrWait.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+ .text.__ndsabi_coro_yield
+                0x00000000       0x1c /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+ .text.__ndsabi_coro_pop
+                0x00000000       0x34 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+ .text.__aeabi_memclr
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+ .text.__aeabi_memclr8
+                0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+ .text.__aeabi_memclr4
+                0x00000000        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memcpy.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memcpy.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memcpy.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interruptDispatcher.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interruptDispatcher.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interruptDispatcher.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(aeabi_read_tp.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(aeabi_read_tp.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(aeabi_read_tp.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(dma.s.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(dma.s.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(dma.s.o)
+ .itcm          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(dma.s.o)
+ .text.dmaStopSafe
+                0x00000000       0x44 /opt/blocksds/core/libs/libnds/lib/libnds9.a(dma.s.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+ .text.vramSetPrimaryBanks
+                0x00000000       0x44 /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+ .text.vramSetBanks_EFG
+                0x00000000       0x38 /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+ .text.setBrightness
+                0x00000000       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.setSDcallback
+                0x00000000        0xc /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.systemSleep
+                0x00000000       0x18 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.enableSleep
+                0x00000000       0x10 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.disableSleep
+                0x00000000       0x10 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.powerOff
+                0x00000000       0x28 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.ledBlink
+                0x00000000       0x10 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.getBatteryLevel
+                0x00000000       0x2c /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.enableSlot1
+                0x00000000       0x1c /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text.disableSlot1
+                0x00000000       0x1c /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .text          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.c.o)
+ .data          0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.c.o)
+ .bss           0x00000000        0x0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.c.o)
+ .text.__ndsabi_coro_make
+                0x00000000       0x24 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .text.calloc   0x00000000       0xb4 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .debug_info    0x00000000      0x218 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .debug_abbrev  0x00000000      0x175 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .debug_loc     0x00000000      0x27b /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .debug_ranges  0x00000000       0x48 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .debug_line    0x00000000      0x20e /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .debug_str     0x00000000      0x271 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .comment       0x00000000       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .debug_frame   0x00000000       0x2c /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .ARM.attributes
+                0x00000000       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-calloc.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .text.malloc   0x00000000      0x430 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .text.memalign
+                0x00000000       0xe0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .debug_info    0x00000000      0x313 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .debug_abbrev  0x00000000      0x185 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .debug_loc     0x00000000      0x1e8 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .debug_ranges  0x00000000       0x10 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .debug_line    0x00000000      0x284 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .debug_str     0x00000000      0x333 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .comment       0x00000000       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .debug_frame   0x00000000       0x34 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .ARM.attributes
+                0x00000000       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-memalign.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+ .text          0x00000000      0x214 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .debug_line    0x00000000       0x67 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .debug_line_str
+                0x00000000       0x98 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .debug_info    0x00000000       0x3e /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00000000       0x28 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .debug_str     0x00000000       0xbf /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x1d /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x4 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x00000000       0x4a /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .debug_line_str
+                0x00000000       0x98 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000000       0x3c /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00000000       0x26 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x00000000       0xc0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x1d /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+ .rodata        0x00000000       0x24 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+ .tm_clone_table
+                0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+ .text          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtn.o
+ .data          0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtn.o
+ .bss           0x00000000        0x0 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ewram            0x02000000         0x00380000
+dtcm             0x02ff0000         0x00004000
+vectors          0x01000000         0x00000100
+itcm             0x01000100         0x00007f00
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x02380000                        __ewram_end = (ORIGIN (ewram) + LENGTH (ewram))
+                0x02380000                        __eheap_end = (ORIGIN (ewram) + LENGTH (ewram))
+                0x02ff4000                        __dtcm_top = (ORIGIN (dtcm) + LENGTH (dtcm))
+                0x02ff3ff8                        __irq_flags = (__dtcm_top - 0x8)
+                0x02ff3ffc                        __irq_vector = (__dtcm_top - 0x4)
+                0x02ff3f00                        __sp_svc = (__dtcm_top - 0x100)
+                0x02ff3e00                        __sp_irq = (__sp_svc - 0x100)
+                0x02ff3d00                        __sp_usr = (__sp_irq - 0x100)
+
+.secure         0x02000000      0x800
+ *(.secure)
+ .secure        0x02000000      0x800 /opt/blocksds/core/libs/libnds/lib/libnds9.a(securearea.c.o)
+                0x02000000                __secure_area__
+
+.crt0           0x02000800      0x308
+                0x02000800                        __text_start = .
+ *(.crt0)
+ .crt0          0x02000800      0x308 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+                0x02000800                _start
+                0x02000b08                        . = ALIGN (0x4)
+                0x00004000                        PROVIDE (__dldi_size = 0x4000)
+                0x0000000e                        __dldi_log2_size = (LOG2CEIL ((__dldi_size + 0x1)) - 0x1)
+
+.dldi           0x02000b08        0x0
+                0x02000b08                        __dldi_start = .
+ *(.dldi)
+                0x02000b08                        . = ALIGN (0x4)
+                0x02000b08                        __dldi_data_end = .
+                0x02000b08                        __dldi_end = (__dldi_data_end > __dldi_start)?(__dldi_start + __dldi_size):__dldi_start
+                0x02000b08                        . = __dldi_end
+                0x02000b08                        . = ALIGN (0x4)
+
+.plt
+ *(.plt)
+
+.init           0x02000b08        0x8
+ *(SORT_NONE(.init))
+ .init          0x02000b08        0x8 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtn.o
+
+.text           0x02000b10     0x16f8
+ *(EXCLUDE_FILE(*.twl* *.vectors* *.itcm*) .text)
+ *(EXCLUDE_FILE(*.twl* *.vectors* *.itcm*) .stub)
+ *(EXCLUDE_FILE(*.twl* *.vectors* *.itcm*) .text.*)
+ .text.startup.main
+                0x02000b10        0x4 build/source/test.c.o
+                0x02000b10                main
+ .text.__libnds_mpu_setup
+                0x02000b14      0x168 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+                0x02000b14                __libnds_mpu_setup
+ .text.memUncached
+                0x02000c7c       0x20 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+                0x02000c7c                memUncached
+ .text.build_argv
+                0x02000c9c       0x58 /opt/blocksds/core/libs/libnds/lib/libnds9.a(crt0_argv.c.o)
+                0x02000c9c                build_argv
+ .text.initSystem
+                0x02000cf4      0x1a8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+                0x02000cf4                initSystem
+ .text.sbrk     0x02000e9c       0x5c /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+                0x02000e9c                sbrk
+ .text.systemErrorExit
+                0x02000ef8        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+                0x02000ef8                systemErrorExit
+ .text.__libnds_exit
+                0x02000efc        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+                0x02000efc                __libnds_exit
+ .text._exit    0x02000f04       0x78 /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+                0x02000f04                _exit
+ .text.irqDummy
+                0x02000f7c        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+                0x02000f7c                irqDummy
+ .text.irqSet   0x02000f80       0x78 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+                0x02000f80                irqSet
+ .text.irqInit  0x02000ff8       0x50 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+                0x02000ff8                irqInit
+ .text.irqEnable
+                0x02001048       0x64 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+                0x02001048                irqEnable
+ .text.cothread_delete_internal
+                0x020010ac       0x3c /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .text.cothread_main
+                0x020010e8       0x10 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+                0x020010e8                cothread_main
+ .text.cothread_start
+                0x020010f8       0xe8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+                0x020010f8                cothread_start
+ .text.fifo_buffer_enqueue_block
+                0x020011e0       0x44 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifo_buffer_wait_block
+                0x02001224       0x80 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoInternalSend.part.0
+                0x020012a4       0xcc /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoInternalSendInterrupt
+                0x02001370       0xb0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoSetValue32Handler
+                0x02001420       0xd4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+                0x02001420                fifoSetValue32Handler
+ .text.fifoSendValue32
+                0x020014f4       0x50 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+                0x020014f4                fifoSendValue32
+ .text.fifoGetDatamsg
+                0x02001544       0xe8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+                0x02001544                fifoGetDatamsg
+ .text.fifoInternalRecvInterrupt
+                0x0200162c      0x310 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .text.fifoSetDatamsgHandler
+                0x0200193c       0x9c /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+                0x0200193c                fifoSetDatamsgHandler
+ .text.fifoInit
+                0x020019d8      0x114 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+                0x020019d8                fifoInit
+ .text.swiIntrWait
+                0x02001aec       0x70 /opt/blocksds/core/libs/libnds/lib/libnds9.a(IntrWait.s.o)
+                0x02001aec                swiIntrWait
+ .text.__ndsabi_coro_resume
+                0x02001b5c       0x18 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+                0x02001b5c                __ndsabi_coro_resume
+ .text.__ndsabi_coro_pop_noctx
+                0x02001b74       0x34 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+                0x02001b74                __ndsabi_coro_pop_noctx
+ .text.__aeabi_memset
+                0x02001ba8       0x9c /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+                0x02001ba8                __aeabi_memset
+                0x02001bcc                __aeabi_memset8
+                0x02001bcc                __aeabi_memset4
+                0x02001bd8                __ndsabi_wordset4
+                0x02001bdc                __ndsabi_lwordset4
+ .text.__ndsabi_memset1
+                0x02001c44       0x10 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+                0x02001c44                __ndsabi_memset1
+ .text.memset   0x02001c54       0x1c /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+                0x02001c54                memset
+ .text.__aeabi_memcpy
+                0x02001c70       0xdc /opt/blocksds/core/libs/libnds/lib/libnds9.a(memcpy.s.o)
+                0x02001c70                __aeabi_memcpy
+                0x02001ca8                __aeabi_memcpy4
+                0x02001ca8                __aeabi_memcpy8
+                0x02001d14                __ndsabi_memcpy2
+                0x02001d38                __ndsabi_memcpy1
+ .text.memcpy   0x02001d4c       0x10 /opt/blocksds/core/libs/libnds/lib/libnds9.a(memcpy.s.o)
+                0x02001d4c                memcpy
+ .text.__aeabi_read_tp
+                0x02001d5c        0xc /opt/blocksds/core/libs/libnds/lib/libnds9.a(aeabi_read_tp.s.o)
+                0x02001d5c                __aeabi_read_tp
+ .text.dmaSetParams
+                0x02001d68       0x1c /opt/blocksds/core/libs/libnds/lib/libnds9.a(dma.s.o)
+                0x02001d68                dmaSetParams
+ .text.vramDefault
+                0x02001d84       0xc8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+                0x02001d84                vramDefault
+ .text.systemValueHandler
+                0x02001e4c       0x44 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+                0x02001e4c                systemValueHandler
+ .text.systemMsgHandler
+                0x02001e90       0x78 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+                0x02001e90                systemMsgHandler
+ .text.powerOn  0x02001f08       0x2c /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+                0x02001f08                powerOn
+ .text.__ndsabi_coro_make_noctx
+                0x02001f34       0x24 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.c.o)
+                0x02001f34                __ndsabi_coro_make_noctx
+ .text.malloc_trim
+                0x02001f58       0x9c /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+                0x02001f58                malloc_trim
+ .text.free     0x02001ff4      0x164 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+                0x02001ff4                __malloc_free
+                0x02001ff4                free
+ .text.__libc_init_array
+                0x02002158       0x54 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+                0x02002158                __libc_init_array
+ .text.__retarget_lock_acquire_recursive
+                0x020021ac        0x2 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+                0x020021ac                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x020021ae        0x2 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+                0x020021ae                __retarget_lock_release_recursive
+ .text.exit     0x020021b0       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+                0x020021b0                exit
+ .text.__libc_fini_array
+                0x020021d0       0x30 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+                0x020021d0                __libc_fini_array
+ .text.__libc_fini_array.__stub
+                0x02002200        0x8 linker stubs
+ *(EXCLUDE_FILE(*.twl*) .gnu.warning)
+ *(EXCLUDE_FILE(*.twl*) .gnu.linkonce.t*)
+ *(.glue_7)
+ .glue_7        0x02002208        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x02002208        0x0 linker stubs
+                0x02002208                        . = ALIGN (0x4)
+
+.vfp11_veneer   0x02002208        0x0
+ .vfp11_veneer  0x02002208        0x0 linker stubs
+
+.v4_bx          0x02002208        0x0
+ .v4_bx         0x02002208        0x0 linker stubs
+
+.iplt           0x02002208        0x0
+ .iplt          0x02002208        0x0 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+
+.fini           0x02002208        0x8
+ *(.fini)
+ .fini          0x02002208        0x8 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtn.o
+                0x02002210                        __text_end = .
+
+.rodata         0x02002210        0x0
+ *(EXCLUDE_FILE(*.twl*) .rodata)
+ *all.rodata*(*)
+ *(EXCLUDE_FILE(*.twl*) .roda)
+ *(EXCLUDE_FILE(*.twl*) .rodata.*)
+ *(EXCLUDE_FILE(*.twl*) .gnu.linkonce.r*)
+                0x02002210                        . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x02002210                        __exidx_start = .
+
+ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x02002210                        __exidx_end = .
+                0x02002210                        . = ALIGN (0x4)
+                0x02002210                        PROVIDE (__preinit_array_start = .)
+
+.preinit_array
+ *(.preinit_array)
+                0x02002210                        PROVIDE (__preinit_array_end = .)
+                0x02002210                        PROVIDE (__init_array_start = .)
+
+.init_array
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x02002210                        PROVIDE (__init_array_end = .)
+                0x02002210                        PROVIDE (__fini_array_start = .)
+
+.fini_array
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x02002210                        PROVIDE (__fini_array_end = .)
+
+.ctors          0x02002210        0x0
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x02002210                        . = ALIGN (0x4)
+
+.dtors          0x02002210        0x0
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x02002210                        . = ALIGN (0x4)
+
+.eh_frame       0x02002210        0x4
+ *(.eh_frame)
+ .eh_frame      0x02002210        0x4 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+                0x02002214                        . = ALIGN (0x4)
+
+.rel.dyn        0x02002214        0x0
+ .rel.iplt      0x02002214        0x0 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+
+.gcc_except_table
+                0x02002214        0x0
+ *(.gcc_except_table)
+                0x02002214                        . = ALIGN (0x4)
+
+.jcr
+ *(.jcr)
+
+.got            0x02002214       0x10
+ *(.got.plt)
+ .got.plt       0x02002214        0xc /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+                0x02002214                _GLOBAL_OFFSET_TABLE_
+ *(.got)
+ .got           0x02002220        0x4 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+ *(.rel.got)
+ .rel.got       0x02002224        0x0 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+
+.ewram          0x02002224        0x0
+                0x02002224                        __ewram_start = ABSOLUTE (.)
+ *(.ewram)
+ *ewram.*(.text)
+                0x02002224                        . = ALIGN (0x4)
+
+.data           0x02002224      0x448
+                0x02002224                        __data_start = ABSOLUTE (.)
+ *(EXCLUDE_FILE(*.twl*) .data)
+ .data          0x02002224       0x28 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+ .data          0x0200224c      0x410 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+                0x0200224c                __malloc_sbrk_base
+                0x02002250                __malloc_trim_threshold
+                0x02002254                __malloc_av_
+ *(EXCLUDE_FILE(*.twl*) .data.*)
+ .data.fifo_freewords
+                0x0200265c        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .data.fifo_receive_queue
+                0x02002660        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .data.fifo_send_queue
+                0x02002664        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .data.fifo_buffer_free
+                0x02002668        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ *(EXCLUDE_FILE(*.twl*) .gnu.linkonce.d*)
+                0x0200266c                        . = ALIGN (0x4)
+
+.igot.plt       0x0200266c        0x0
+ .igot.plt      0x0200266c        0x0 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+
+.tdata          0x0200266c        0x0
+                0x0200266c                        __tdata_start = ABSOLUTE (.)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+                0x0200266c                        . = ALIGN (0x4)
+                0x0200266c                        __tdata_end = ABSOLUTE (.)
+                0x0200266c                        __data_end = .
+                0x00000000                        __tdata_size = (__tdata_end - __tdata_start)
+
+.tbss           0x0200266c        0x4
+                0x0200266c                        __tbss_start = ABSOLUTE (.)
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ .tbss          0x0200266c        0x4 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+                0x0200266c                errno
+ *(.tcommon)
+                0x02002670                        . = ALIGN (0x4)
+                0x02002670                        __tbss_end = ABSOLUTE (.)
+                0x00000004                        __tbss_size = (__tbss_end - __tbss_start)
+                0x0200266c                        __bss_vma = .
+
+.dtcm           0x02ff0000        0x0 load address 0x0200266c
+                0x0200266c                        __dtcm_lma = LOADADDR (.dtcm)
+                0x02ff0000                        __dtcm_start = ABSOLUTE (.)
+ *(.dtcm)
+ *(.dtcm.*)
+                0x02ff0000                        . = ALIGN (0x4)
+                0x02ff0000                        __dtcm_end = ABSOLUTE (.)
+
+.itcm           0x01000100      0x26c load address 0x0200266c
+                0x0200266c                        __itcm_lma = LOADADDR (.itcm)
+                0x01000100                        __itcm_start = ABSOLUTE (.)
+ *(.itcm)
+ *(.itcm.*)
+ .itcm.data     0x01000100      0x100 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+                0x01000100                irqTable
+ .itcm.text     0x01000200       0x3c /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+                0x01000200                cothread_scheduler_refresh_irq_flags
+ .itcm.setCpuClock
+                0x0100023c       0x50 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cpu_clock.s.o)
+                0x0100023c                setCpuClock
+ .itcm.IntrMain
+                0x0100028c       0xe0 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interruptDispatcher.s.o)
+                0x0100028c                IntrMain
+ *.itcm*(.text .stub .text.*)
+                0x0100036c                        . = ALIGN (0x4)
+                0x0100036c                        __itcm_end = ABSOLUTE (.)
+
+.vectors        0x01000000        0x0 load address 0x020028d8
+                0x020028d8                        __vectors_lma = LOADADDR (.vectors)
+                0x01000000                        __vectors_start = ABSOLUTE (.)
+ *(.vectors .vectors.*)
+                0x01000000                        . = ALIGN (0x4)
+                0x01000000                        __vectors_end = ABSOLUTE (.)
+
+.sbss           0x02ff0000        0x4
+                0x02ff0000                        __sbss_start = ABSOLUTE (.)
+                0x02ff0000                        __sbss_start__ = ABSOLUTE (.)
+ *(.sbss)
+ .sbss          0x02ff0000        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+                0x02ff0000                cothread_irq_flags
+                0x02ff0004                        . = ALIGN (0x4)
+                0x02ff0004                        __sbss_end = ABSOLUTE (.)
+
+.bss            0x0200266c      0xac4
+                0x0200266c                        __bss_start = ABSOLUTE (.)
+                0x0200266c                        __bss_start__ = ABSOLUTE (.)
+ *(EXCLUDE_FILE(*.twl*) .dynbss)
+ *(EXCLUDE_FILE(*.twl*) .gnu.linkonce.b*)
+ *(EXCLUDE_FILE(*.twl*) .bss*)
+ .bss.punixTime
+                0x0200266c        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+                0x0200266c                punixTime
+ .bss.__dsimode
+                0x02002670        0x1 /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+                0x02002670                __dsimode
+ *fill*         0x02002671        0x3 
+ .bss.heap_start.0
+                0x02002674        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+ .bss.fake_heap_start
+                0x02002678        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+                0x02002678                fake_heap_start
+ .bss.fake_heap_end
+                0x0200267c        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+                0x0200267c                fake_heap_end
+ .bss.main_args
+                0x02002680        0x8 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .bss.__tls     0x02002688        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+                0x02002688                __tls
+ .bss.cothread_list
+                0x0200268c       0x1c /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .bss.cothread_active_thread
+                0x020026a8        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .bss.free_fn   0x020026ac        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .bss.processing
+                0x020026b0        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_datamsg_data
+                0x020026b4       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_value32_data
+                0x020026f4       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_address_data
+                0x02002734       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_datamsg_func
+                0x02002774       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_value32_func
+                0x020027b4       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_address_func
+                0x020027f4       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_value32_queue
+                0x02002834       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_data_queue
+                0x02002874       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_address_queue
+                0x020028b4       0x40 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.fifo_buffer
+                0x020028f4      0x800 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .bss.SDcallback
+                0x020030f4        0x4 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .bss           0x020030f8       0x34 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+                0x020030f8                __malloc_top_pad
+                0x020030fc                __malloc_current_mallinfo
+                0x02003124                __malloc_max_sbrked_mem
+                0x02003128                __malloc_max_total_mem
+ .bss           0x0200312c        0x1 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+                0x0200312c                __lock___libc_recursive_mutex
+ *(EXCLUDE_FILE(*.twl*) COMMON)
+                0x02003130                        . = ALIGN (0x4)
+ *fill*         0x0200312d        0x3 
+                0x02003130                        __bss_end__ = ABSOLUTE (.)
+
+.tls            0x02003130        0x4
+                0x02003130                        __tls_start = ABSOLUTE (.)
+                0x02003134                        . = ((. + __tdata_size) + __tbss_size)
+ *fill*         0x02003130        0x4 
+                0x02003134                        __tls_end = ABSOLUTE (.)
+                0x02003134                        __end__ = ABSOLUTE (.)
+                0x00000004                        __tls_size = (__tls_end - __tls_start)
+
+.twl            0x02003134        0x0 load address 0x02400000
+                0x02400000                        __arm9i_lma__ = LOADADDR (.twl)
+                0x02003134                        __arm9i_start__ = ABSOLUTE (.)
+ *(.twl)
+ *(.twl.text .twl.text.*)
+ *(.twl.rodata .twl.rodata.*)
+ *(.twl.data .twl.data.*)
+ *.twl*(.text .stub .text.* .gnu.linkonce.t.*)
+ *.twl*(.rodata)
+ *.twl*(.roda)
+ *.twl*(.rodata.*)
+ *.twl*(.data)
+ *.twl*(.data.*)
+ *.twl*(.gnu.linkonce.d*)
+                0x02003134                        __arm9i_end__ = ABSOLUTE (.)
+
+.twl_bss        0x02003134        0x0
+                0x02003134                        __twl_bss_start__ = ABSOLUTE (.)
+ *(.twl_bss .twl_bss.*)
+ *(.twl.bss .twl.bss.*)
+ *.twl*(.dynbss)
+ *.twl*(.gnu.linkonce.b*)
+ *.twl*(.bss*)
+ *.twl*(COMMON)
+                0x02003134                        . = ALIGN (0x4)
+                0x02003134                        __twl_bss_end__ = ABSOLUTE (.)
+                0x02003134                        __twl_end__ = ABSOLUTE (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x22
+ *(.comment)
+ .comment       0x00000000       0x22 build/source/test.c.o
+                                 0x23 (size before relaxing)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(crt0_argv.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(securearea.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .comment       0x00000022       0x23 /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.c.o)
+ .comment       0x00000022       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .comment       0x00000022       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .comment       0x00000022       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .comment       0x00000022       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .comment       0x00000022       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .comment       0x00000022       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .comment       0x00000022       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+ .comment       0x00000022       0x23 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x21 /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+ .ARM.attributes
+                0x00000021       0x2b build/source/test.c.o
+ .ARM.attributes
+                0x0000004c       0x21 /opt/blocksds/core/libs/libnds/lib/libnds9.a(mpu_setup.s.o)
+ .ARM.attributes
+                0x0000006d       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(crt0_argv.c.o)
+ .ARM.attributes
+                0x00000098       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(initSystem.c.o)
+ .ARM.attributes
+                0x000000c3       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(securearea.c.o)
+ .ARM.attributes
+                0x000000ee       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(sbrk.c.o)
+ .ARM.attributes
+                0x00000119       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(exit.c.o)
+ .ARM.attributes
+                0x00000144       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(interrupts.c.o)
+ .ARM.attributes
+                0x0000016f       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(threads.c.o)
+ .ARM.attributes
+                0x0000019a       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(fifosystem.c.o)
+ .ARM.attributes
+                0x000001c5       0x21 /opt/blocksds/core/libs/libnds/lib/libnds9.a(cpu_clock.s.o)
+ .ARM.attributes
+                0x000001e6       0x21 /opt/blocksds/core/libs/libnds/lib/libnds9.a(IntrWait.s.o)
+ .ARM.attributes
+                0x00000207       0x1b /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.s.o)
+ .ARM.attributes
+                0x00000222       0x1b /opt/blocksds/core/libs/libnds/lib/libnds9.a(memset.s.o)
+ .ARM.attributes
+                0x0000023d       0x1b /opt/blocksds/core/libs/libnds/lib/libnds9.a(memcpy.s.o)
+ .ARM.attributes
+                0x00000258       0x1b /opt/blocksds/core/libs/libnds/lib/libnds9.a(interruptDispatcher.s.o)
+ .ARM.attributes
+                0x00000273       0x1b /opt/blocksds/core/libs/libnds/lib/libnds9.a(aeabi_read_tp.s.o)
+ .ARM.attributes
+                0x0000028e       0x1b /opt/blocksds/core/libs/libnds/lib/libnds9.a(dma.s.o)
+ .ARM.attributes
+                0x000002a9       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(video.c.o)
+ .ARM.attributes
+                0x000002d4       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(system.c.o)
+ .ARM.attributes
+                0x000002ff       0x2b /opt/blocksds/core/libs/libnds/lib/libnds9.a(coroutine.c.o)
+ .ARM.attributes
+                0x0000032a       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .ARM.attributes
+                0x00000359       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .ARM.attributes
+                0x00000388       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .ARM.attributes
+                0x000003b7       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .ARM.attributes
+                0x000003e6       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .ARM.attributes
+                0x00000415       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .ARM.attributes
+                0x00000444       0x2f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+ .ARM.attributes
+                0x00000473       0x2b /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+ .ARM.attributes
+                0x0000049e       0x1d /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x118
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .debug_aranges
+                0x00000028       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .debug_aranges
+                0x00000048       0x18 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .debug_aranges
+                0x00000060       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .debug_aranges
+                0x00000080       0x58 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .debug_aranges
+                0x000000d8       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .debug_aranges
+                0x000000f8       0x20 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xf8d
+ *(.debug_info)
+ .debug_info    0x00000000      0x511 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .debug_info    0x00000511      0x5aa /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .debug_info    0x00000abb       0x47 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .debug_info    0x00000b02      0x112 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .debug_info    0x00000c14      0x15a /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .debug_info    0x00000d6e      0x125 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .debug_info    0x00000e93       0xfa /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+
+.debug_abbrev   0x00000000      0x7a0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x211 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .debug_abbrev  0x00000211      0x210 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .debug_abbrev  0x00000421       0x48 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .debug_abbrev  0x00000469       0xca /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .debug_abbrev  0x00000533       0xcb /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .debug_abbrev  0x000005fe       0xd8 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .debug_abbrev  0x000006d6       0xca /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+
+.debug_line     0x00000000      0xfea
+ *(.debug_line)
+ .debug_line    0x00000000      0x422 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .debug_line    0x00000422      0x770 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .debug_line    0x00000b92       0x7b /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .debug_line    0x00000c0d      0x12b /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .debug_line    0x00000d38      0x10f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .debug_line    0x00000e47       0xaa /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .debug_line    0x00000ef1       0xf9 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+
+.debug_frame    0x00000000      0x194
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x54 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .debug_frame   0x00000054       0x30 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .debug_frame   0x00000084       0x2c /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .debug_frame   0x000000b0       0x90 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .debug_frame   0x00000140       0x28 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .debug_frame   0x00000168       0x2c /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+
+.debug_str      0x00000000      0x790
+ *(.debug_str)
+ .debug_str     0x00000000      0x790 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+                                0x3c8 (size before relaxing)
+ .debug_str     0x00000790      0x48f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .debug_str     0x00000790      0x150 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_errno_errno.c.o)
+ .debug_str     0x00000790      0x24b /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .debug_str     0x00000790      0x25f /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .debug_str     0x00000790      0x212 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .debug_str     0x00000790      0x221 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+
+.debug_loc      0x00000000      0xfcc
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4f4 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .debug_loc     0x000004f4      0xa05 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .debug_loc     0x00000ef9       0x5e /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .debug_loc     0x00000f57       0x22 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .debug_loc     0x00000f79       0x53 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.stack          0x00080000        0x0
+                0x00080000                        _stack = .
+ *(.stack)
+LOAD /opt/blocksds/core/sys/crts/ds_arm9_crt0.o
+LOAD build/source/test.c.o
+START GROUP
+LOAD /opt/blocksds/core/libs/libnds/lib/libnds9.a
+LOAD /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a
+END GROUP
+START GROUP
+LOAD /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a
+LOAD /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/libgcc.a
+END GROUP
+LOAD /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtend.o
+LOAD /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/thumb/arm946e-s/crtn.o
+OUTPUT(build/exp.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0xd8
+ .debug_ranges  0x00000000       0x30 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-free.c.o)
+ .debug_ranges  0x00000030       0x30 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(malloc-malloc.c.o)
+ .debug_ranges  0x00000060       0x10 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_init.c.o)
+ .debug_ranges  0x00000070       0x48 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_lock.c.o)
+ .debug_ranges  0x000000b8       0x10 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_stdlib_pico-exit.c.o)
+ .debug_ranges  0x000000c8       0x10 /opt/wonderful/toolchain/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.0/../../../../arm-none-eabi/lib/thumb/arm946e-s/libc.a(libc_misc_fini.c.o)
